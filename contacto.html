@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Web 1</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/edgrid.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header class="ed-container">
+        <div class="ed-item web-20">
+            <a href="/"><img src="img/logo.png"></a>
+        </div>
+        <div class="ed-item web-80">
+            <nav>
+                <ul class="ed-menu web-horizontal web-main-end">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="#">Servicios</a>
+                        <ul class="ed-menu web-vertical">
+                            <li><a href="noticia.html">Noticias</a></li>
+                            <li><a href="analisis.html">Analisis</a></li>
+                            <li><a href="guias.html">Guías</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="clientes.html">Clientes</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="banner" class="ed-container">
+        <div class="ed-item">
+            <img src="img/contacto.jpg" alt="inicio">
+        </div>
+    </div>
+
+    <div class="ed-container">
+        <main class="ed-item web-75">
+            <h1>Contacto</h1>
+            Para cualquier consulta o sugerencia, favor de contactarnos
+            <form action="#" class="ed-container contacto">
+                <div class="ed-item web-70">
+                    <input type="text" placeholder="Nombres">
+                </div>
+                <div class="ed-item web-70">
+                    <input type="email" placeholder="E-mail">
+                </div>
+                <div class="ed-item web-70">
+                    <textarea name="mensaje" cols="30" rows="10"
+                    placeholder="Escriba su mensaje por favor"></textarea>
+                </div>
+                <div class="ed-item web-40">
+                    <input type="button" class="enviar" value="Enviar Comentario" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal01">
+                </div>
+            </form>
+        </main>
+       
+        <aside class="ed-item web-25">
+            <div>
+                <h2>Siguenos en Facebok</h2>
+                <a href="http://facebook.com" target="_blank" class="sig">Seguir</a><br>
+                <h2>Siguenos en Instagram</h2>
+                <a href="http://instagram.com" target="_blank" class="sig">Seguir</a>
+            </div>
+        </aside>
+    </div>
+    <footer>
+        <div class="ed-container">
+            <div class="ed-item">
+                <p>Proyecto Web</p>
+                <p>Diseñando por Karla Castilla</p>
+            </div>
+        </div>
+    </footer>
+   
+</body>
+</html>
